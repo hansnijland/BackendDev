@@ -29,15 +29,17 @@ li:hover{
   background-color: rgb(218, 247, 166);
   border-style: none; 
  }
-form{
+.contact{
   background-color: white;
   width: 300px;
   border-radius: 4px; box-shadow: inset 2px 2px 5px darkgrey;
-  padding: 2px;
+  padding-bottom: 1px;
+  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
 }
+
 input[type="text"], input[type="email"], textarea, button{
   display: block;margin: 15px 0px;
   margin-right: auto;
