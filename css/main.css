@@ -1,60 +1,83 @@
-body {
-  text-align: center; 
-  background-color: rgb(243, 240, 240);
-  padding: 5px;
-  }
- 
+/*
 header{
-  width:100%; 
-  height: 75px; 
-  background-color: rgb(100, 149, 237 );
-  align-items: center;
-  padding: 5px;
-  }
-
-.s1{
-  background-color: white;
-  text-align: left;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 22px;
-  margin-bottom: 15px;
-  width: 750px;
-  min-height: 224px;
-  padding: 10px 10px 10px 25px;
-  border-radius: 4px; box-shadow: inset 2px 2px 5px darkgrey;
+    font-family: 'Lugrasimo', cursive;
+    width: 100%;
+    background-color: olive;
+    min-height: 100px;
 }
-#pasfoto{
-  float: right;
-  height: 224px;
-  width: 300px;
-  padding: 10px 10px 10px 25px;
-}
-li{
-  display: inline-block;
-  height: 18px;
-  width: 100px;
-  padding: 12px;
-  text-align: center;
-  color: white;
-  border-left: 2px solid rgb(231, 178, 3);
-  border-right: 1px solid rgb(231, 178, 3);
-  background-color: rgb(255, 195, 0);
-  margin-top: 3px;
-}
-
-li:hover{
-  background-color: rgb(218, 247, 166);
-  border-style: none; 
-}
-
-#copyright{
-  padding-top: 15px;
+.header_text{
+    text-align: center;
+    padding-top: 25px;
 }
 footer{
-  width:100%; 
-  height: 50px; 
-  background-color: rgb(218, 247, 166);
-  text-align: center;
-  padding: 5px;
+    background-color: red;
+    width: 100%;
+    min-height: 100px
+}*/
+.header{
+    font-family: 'Lugrasimo', cursive;
+    width: 100%;
+    background-color: olive;
+    background-image: url('../afbeeldingen/hengelo-34.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+.footer{
+    background-color: #7F7F7F;
+    text-align: center;
+    width: 100%;
+    min-height: 100px;
+    display:inline-block
+}
+[class*="col-"] {
+    width : 100%
+}
+@media only screen and (min-width:768px){
+    [class*="col-"]{
+        float:left;
+        padding:15px
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+#content{
+    background-color: lightgray;
+    margin-top: 5px;
+}
+.artikel1{
+    background-color: olive;
+
+    align-items: right;
+}
+.artikel2{
+    background-color: olive;
+}
+
+#links{
+
+    background-color: #A6A674;
+    height: auto;
+}
+#midden{
+    background-color: olive;
+    height: auto;
+}
+img{
+    float:right;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
 }
